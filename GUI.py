@@ -19,4 +19,6 @@ chk_state.set(True) #set check state
 chk = Checkbutton(window, text='Choose', var=chk_state)
 chk.grid(column=0, row=0)
 
+rad1 = Radiobutton(window, text='First', value=1)
+rad1.grid(column=1, row=1)
 window.mainloop()
