@@ -18,7 +18,7 @@ txt.grid(column=1, row=0)
 txt.focus()
 
 btn = Button(window, text='Click me',bg='green', fg='orange', command=clicked)
-btn.grid(column=2, row=0)
+btn.grid(column=2, row=3)
 
 combo = Combobox(window)
 window.mainloop()
