@@ -10,6 +10,7 @@ pandas = "*"
 numpy = "*"
 bokeh = "*"
 matplotlib = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.6"
